@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+	<system>
+		<tab id="magepow" translate="label" sortOrder="1">
+			<label>Magepow</label>
+		</tab>
+		<section id="magepow_pdfinvoicefrontend" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+			<class>separator-top</class>
+			<label>Pdf Invoice</label>
+			<tab>magepow</tab>
+			<resource>Magepow_CustomPdfFont::config</resource>
+			<group id="general" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+				<label>General Settings</label>
+				<field id="enabled" translate="label comment" type="select" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+					<label>Enabled</label>
+					<source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+				</field>
+			
+				<field id="type" translate="label comment" type="select" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                    <label><![CDATA[Choose cache type want to add front language]]></label>
+                    <source_model>Magepow\CustomPdfFont\Model\Config\Source\Type</source_model>
+                    <comment><![CDATA[Choose cache type want to add front language]]></comment>
+                    <depends>
+                        <field id="enabled">1</field>
+                    </depends>
+                </field>
+			</group>
+		</section>
+	</system>
+</config>
