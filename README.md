@@ -43,15 +43,15 @@ php bin/magento setup:static-content:deploy -f
   2.1. general config
   `Login to Magento admin > Stores > Configuration > Magepow > Font Pdf Invoice > Enable > Choose Yes to enable the module.`
 
-  ![Image of Magento admin config](https://github.com/magepow/magento2-font-pdf-invoice/blob/master/media/admin_config.png)
+  ![Image of Magento admin config](https://github.com/magepow/magento-2-font-pdf-invoice/blob/master/media/admin_config.png)
 
   * **Choose cache type want to add front language**: Choose language you show in pdf invoice and pdf shipping.
     
   2.2. Result
    Result of pdf invoice default when use the traditional-Arabic.
-   ![Image of magento store front](https://github.com/magepow/magento2-font-pdf-invoice/blob/master/media/defaultFont.png)
+   ![Image of magento store front](https://github.com/magepow/magento-2-font-pdf-invoice/blob/master/media/defaultFont.png)
    And after install Extension Font Pdf Invoice.
-   ![Image of magento store front](https://github.com/magepow/magento2-font-pdf-invoice/blob/master/media/after_changeFont.png)
+   ![Image of magento store front](https://github.com/magepow/magento-2-font-pdf-invoice/blob/master/media/after_changeFont.png)
  ## Donation
 
 If this project help you reduce time to develop, you can give me a cup of coffee :) 
