@@ -32,7 +32,7 @@ Before you continue, ensure you meet the following requirements:
  #### Install via composer (recommend)
 Run the following commands in Magento 2 root folder:
 ```
-composer require magepow/fontpdfinvoice
+composer require magepow/custompdffont
 php bin/magento setup:upgrade
 php bin/magento setup:static-content:deploy -f
 ```
