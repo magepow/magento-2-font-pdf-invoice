@@ -1,16 +1,13 @@
 [<img src="https://github.com/magepow/themeforest/blob/master/shopify/shopify_affiliate.jpg" >](https://shopify.pxf.io/VyL446)
 
-[![Latest Stable Version](https://poser.pugx.org/magepow/fontpdfinvoice/v/stable)](https://packagist.org/packages/magepow/fontpdfinvoice)
-[![Total Downloads](https://poser.pugx.org/magepow/fontpdfinvoice/downloads)](https://packagist.org/packages/magepow/fontpdfinvoice)
-[![Daily Downloads](https://poser.pugx.org/magepow/fontpdfinvoice/d/daily)](https://packagist.org/packages/magepow/fontpdfinvoice)
+[![Latest Stable Version](https://poser.pugx.org/magepow/custompdffont/v/stable)](https://packagist.org/packages/magepow/custompdffont)
+[![Total Downloads](https://poser.pugx.org/magepow/custompdffont/downloads)](https://packagist.org/packages/magepow/custompdffont)
+[![Daily Downloads](https://poser.pugx.org/magepow/custompdffont/d/daily)](https://packagist.org/packages/magepow/custompdffont)
 # Magento 2 Font Pdf Invoice
 
 ## Magento 2 Font Pdf Invoice (Magepow Font Pdf Invoice extension Free)
 
 **Font Pdf Invoice** In Magento 2 all PDFs is drawn by using the Zend PDF library. Unfortunately this library hasn’t RTL support.This issue occurs in PDF when the fonts, used to draw PDF, don’t have your language characters. In the latest Magento 2.3.4 version this problem is already fixed in Arabic language by changing the font from LinLibertine to FreeSerif.  But other languages like Chinese, Thai, Hindi still might have this issue. Luckily this issue is fixable and can be fixed by changing a font.
-
-[![Latest Stable Version](https://poser.pugx.org/magepow/fontpdfinvoice/v/stable)](https://packagist.org/packages/magepow/fontpdfinvoice)
-[![Total Downloads](https://poser.pugx.org/magepow/fontpdfinvoice/downloads)](https://packagist.org/packages/magepow/fontpdfinvoice)
 
 **See more information**:
 
